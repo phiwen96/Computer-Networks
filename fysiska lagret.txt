@@ -1,0 +1,214 @@
+Vad ansvarar det fysiska lagret för?
+
+Det fysiska lagret ansvarar för att transportera bitar och hur dessa skall kodas.
+
+
+
+Nämn tre ting som finns på det fysiska lagret.
+
+Hubbar, nätverkskort och kablar
+
+
+
+Vad är digitalisering?
+
+Att konvertera från det analoga till det digitala
+
+
+
+Vad betyder sampling?
+
+Att ta prover med viss regelbundhet
+
+
+
+En signal kan skickas på två sätt, vilka?
+
+Med analog transmission eller digital transmission
+
+
+
+Hur kan man koda en digital signal?
+
+NRZ (Non return to zero) där exempelvis en etta representeras av positiv spänningsnivå 
+medan en nolla representeras av en negativ spänningsnivå.
+
+
+
+Vilken brist har NRZ?
+
+Synkronisering mellan sändare och mottagare.
+
+
+
+I vilken digital transmissionskodning utnyttjas flankerna för synkronisering?
+
+Manchest kodning, där spänningsförändringen styr om det är en nolla eller en etta.
+
+
+
+Hur kodar man en analog signal?
+
+Med modulering.
+
+
+
+Vilka slags moduleringar finns för analoga signaler?
+
+Amplitudmodulering, frekvensmodulering och fasmodulering.
+
+
+
+Hur kodar man ettor och nollor men amplitudmodulering?
+
+Exempelvis kodas större amplitudnivåer som ettor medan svagare amplitudnivåer kodas som nollor.
+
+
+
+Hur används frekvensmodulering för kodning av en analog signal?
+
+Exempelvis en snabbare frekvens motsvarar en etta medan en långsammare frekvens motsvarar en nolla.
+
+
+
+Hur kodas en analog signal med hjälp av fasmodulering?
+
+Olika faser mosvarar olika värden. 
+
+
+
+Vilken är den vanligaste orsaken till sämre signalkvalite?
+
+Dämpning, signalenergin minskar
+
+
+
+Hur kan man motverka att signalkvaliten dämpas?
+
+Med förstärkare
+
+
+
+Vad kan leda till sämre signalkvalite?
+
+Dämpning, distorsion, brus och överhörning
+
+
+
+Hur påverkas signalen av distorsion?
+
+Signalen ändrar form, så när signalen har färdats en bit så missformas dem.
+
+
+
+Hur kan man motverka distorsion?
+
+Med en repeater eller en hubb. Då kan man återskapa signalen innan den blir alldeles förvrängd.
+
+
+
+Vad är viktigt för att kunna undkomma distorsion?
+
+En tillräckligt stark styrka i signalen
+
+
+
+När kan överhörning bli ett problem för signalkvaliten?
+
+När en länk störs av en annan, tex för parkablar
+
+
+
+Vad är transmissionshastighet?
+
+Hur många bitar man kan skicka per sekund
+
+
+
+Vad är utbredningshastighet?
+
+Hur långt signalen kommer på en sekund
+
+
+
+Vilka olika TP (Twisted Pair) kablar finns det?
+
+UTP, STP, ScTP och S/STP
+
+
+
+Vad består en UTP kabel av?
+
+En yttre isolering samt åtta stycken koppartrådar tvinnade parvis med varsin isolering runtomkring.
+
+
+
+Vad står ScTP för?
+
+Screened unshielded twisted pair.
+
+
+
+Hur sen en ScTP kabel ut?
+
+Som en UTP fast med metallfolje innanför den yttre isolering.
+
+
+
+
+Hur sen en STP kabel ut?
+
+Som en UTP fast med metallfolje runt varje tvinnade trådpar.
+
+
+
+Hur sen en S/STP kabel ut?
+
+Som en UTP fast med metallfolje innanför den yttre isoleringen samt metallfolje runt varje tvinnat trådpar.
+
+
+
+Vilka två varianter av fiberkablar finns det?
+
+Multimode och single mode
+
+
+
+Vad är skillnaden mellan single mode fiberkabel och multimode fiberkabel?
+
+Tjockleken på glaset i kabeln, samt att single mode använder laser och multimode använder LED
+
+
+
+På vilka tre sätt kan utbyte av data ske över en länk?
+
+Simplex - endast i en riktning
+Halv duplex - i båda riktningarna men inte samtidigt
+Full duplex - i båda riktningarna samtidigt
+
+
+
+Hur undviker man krockar vid full duplex?
+
+Med hjälp av multiplexering
+
+
+
+Vad är multiplexering?
+
+Ett sätt att skicka en flera signaler samtidigt i form av en enda komplex signal.
+
+
+
+Vilka olika sätt kan man multiplexera signaler?
+
+Frekvensmultiplexering
+Tidsmultiplexering
+Rumsmultiplexering
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+Vad står OSI för?
+
+Open Systems Interconnection
+
+
+
+När togs OSI modellen fram?
+
+1980
+
+
+
+Vilka tog fram OSI modellen?
+
+ISO, internationella standardiseringsorganisationen
+
+
+
+Vad gör applikationslagret?
+
+Den förser användarna med nätverkstjänster.
+
+
+
+Vad gör presentationslagret?
+
+Den ser till att informationen från sändaren blir begriplig för mottagaren.
+
+
+
+Vad gör sessionslagret?
+
+Det initierar kommunikation. Etablerar, upprätthåller och synkroniserar dialog mellan enheter.
+
+
+
+Vad är transportlagrets viktigaste uppgift?
+
+Att se till att kommunikationen når rätt applikation.
+
+
+
+Vad är nätverkslagrets viktigaste uppgift?
+
+Att se till att host till host kommunikationen fungerar.
+Den skall hitta rätt väg på nätverket.
+
+
+
+Vad är datalänkslagrets uppgift?
+
+Att sköta kommunikationen på den lokala länken.
+Alltså från nätverkskort till nästa nätverkskort påvägen mot destinationen.
+
+
+
+Vad gör det fysiska lagret?
+
+Det fysiska lagret definierar nätverkets fysiska struktur, mekaniska och elektriska specifikationer.
