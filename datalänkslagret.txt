@@ -1,0 +1,196 @@
+Vad är lager tvås uppgifter?
+
+Identifiera datorer och annan nätverksutrustning på det lokala nätverket.
+
+Att sköta nätaccess, hur och när man får tillgång till överföringsmediet.
+
+
+
+Vad är datalänkslagrets viktigaste uppgift?
+
+Att se till att ramarna kommer till rätt nätverkskort.
+
+
+
+Hur indentifierar lager två datorer och annan nätverksutrustning?
+
+Med en fysisk address som finns inbränd i nätverkskortet.
+
+
+
+Hur delas kommunikationen upp i lager två?
+
+Kommunikationen delas upp i ramar/frames.
+
+
+
+Vilken nätverksenhet opererar på lager två?
+
+Switchar opererar på lager två.
+
+
+
+Hur många överföringsmedium går en datalänk över?
+
+Ett överföringsmedium 
+
+
+
+Varför finns olika länkteknologier?
+
+Olika överföringsmedium har olika krav vilket innebär olika länkteknologier.
+
+
+
+Varför har olika överföringsmedium olika länkteknologier?
+
+Olika överföringsmedium har olika krav, exempelvis ett medium där många 
+kan ha tillgång samtidigt måste ha en teknologi som hanterar kollisioner.
+
+
+
+Vilka behov finns det som länkteknologien/länkprotokollet måste hantera och som det fysiska lagret inte klarar av?
+
+Felhantering
+Starthantering
+Stophantering
+Kollisionshantering
+Addressering
+
+
+
+Hur upptäcker lager två om det uppstått fel i ramarna?
+
+Med en checksumma/kontrollbitar. Det finns två typer av checksummor.
+Cyclic Redundancy Check (CRC) och Parity checking (paritetsbitar).
+Med parity checking kan man även rätta mindre fel.
+
+
+
+Vad gör man om fel uppstår och lagning inte går?
+
+Antingen kastar man ramen eller så gör man en omsändning.
+
+
+
+Hur brukar man hantera fel som sker i ett överföringsmedium med mycket fel?
+
+Med omsändningar
+
+
+
+Hur brukar man hantera fel som sker i överföringsmedium med få fel?
+
+Kasta ramen
+
+
+
+Hur löser man omsändningar?
+
+Med automatic repeat request (ARQ), med hjälp av sekvensnummer och acknowledgement (ACK).
+Med sekvensnummer märker man ramarna som skickas och på så sätt kan mottagaren se om något saknas.
+Mottagaren skickar ACK med kvitto på vad den fått och på så sätt kan sändaren se om något måste skickas om. 
+
+
+
+Hur många varianter av ARQ finns det?
+
+Två 
+
+
+
+Vilka varianter av ARQ finns det? 
+
+Stop and wait ARQ 
+Go back N ARQ 
+
+
+
+Hur fungerar stop and wait ARQ?
+
+Sändaren startar en timer när den har skickat en ram. När timern går ut och sändaren fortfarande inte 
+fått något ACK av mottagaren så skickar sändaren om ramen.
+
+
+
+Vad är nackdelen med stop and wait ARQ?
+
+Under tiden sändaren väntar på ett ACK gör den ingenting. Det är bra om man kan använda mediumet 
+och skicka så mycket som möjligt.
+
+
+
+Hur fungerar go back N ARQ?
+
+Sändaren har ett fönster med flera ramar som den vill skicka. Eftersom sändaren kan skicka flera 
+ramar åt gången blir den effektivare och får vänta mindre.
+
+
+
+Nämn ett länkprotokoll.
+
+High-level Data Link Control (HDLC)
+
+
+
+Vilken accessmetod som används beror på?
+
+Överföringsmediet och nättopologin
+
+
+
+Vilka nättopologier finns?
+
+Buss
+Ring 
+Stjärna
+Trådlöst
+
+
+Accessmetod kallas även något annat. Vad?
+
+Medium access control (MAC)
+
+
+
+Vad är en accessmetod?
+
+Gemensamma regler för hur man skall få access till länken.
+
+
+
+Vad skall accessmetoden göra?
+
+Förhindra kollision och ta hand om de kollisioner som uppstår 
+
+
+
+Vilka olika typer av MAC addresser finns det?
+
+Unicast address 
+Broadcast address 
+Multicast address
+
+
+
+När används unicast address?
+
+Vid kommunikation en till en 
+
+
+
+När används broadcast address?
+
+Vid kommmunikation en till alla
+
+
+
+När används multicast address?
+
+Vid kommunikation en till många
+
+
+
+
+
+
