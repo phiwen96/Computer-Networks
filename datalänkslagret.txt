@@ -127,9 +127,10 @@ ramar åt gången blir den effektivare och får vänta mindre.
 
 
 
-Nämn ett länkprotokoll.
+Nämn två länkprotokoll.
 
 High-level Data Link Control (HDLC)
+Point-to-point protocol (PPP)
 
 
 
@@ -161,7 +162,34 @@ Gemensamma regler för hur man skall få access till länken.
 
 Vad skall accessmetoden göra?
 
-Förhindra kollision och ta hand om de kollisioner som uppstår 
+Förhindra kollisioner och ta hand om de kollisioner som uppstår.
+
+
+
+Nämn fyra accessmetoder
+
+Pollning
+Token Ring 
+ALOHA
+CSMA/CD (Carrier Sense Multiple Access/Collision Detection)
+
+
+
+Vad står Carrier Sense för i CSMA/CD?
+
+Nätverkskortet sänder ingenting om den känner att något annat nätverkskort sänder.
+
+
+
+Vad står Collision Detection för i CSMA/CD?
+
+Nätverkskortet avbryter transmission om den hör att någon annan sänder.
+
+
+
+Om det blir en kollision vid användning av CSMA/CD, vad gör nätverkskortet då?
+
+Väntar en random time innan den sänder igen.
 
 
 
@@ -191,6 +219,45 @@ Vid kommunikation en till många
 
 
 
+Vilka skapar standarder för lager ett och två?
+
+IEEE, Institute of Electrical and Electronics Engineers
 
 
+
+Vilken är standarden för trådlös kommunikation?
+
+IEEE 802.11
+
+
+
+Vilken är standarden för Ethernet?
+
+IEEE 802.3
+
+
+
+Vad kan man säga att LAN teknologi är?
+
+En accessnätsteknologi
+
+
+
+Vilken teknologi är dominant som LAN teknologi?
+
+Ethernet 
+
+
+
+Vad skiljer olika varianter av Ethernet åt?
+
+Hastighet och medium som används 
+
+
+
+Hur ser Ethernet ramar ut?
+
+------------------------------------------------------------
+| preamble | dst address | src address | type | data | CRC |				
+------------------------------------------------------------
 
